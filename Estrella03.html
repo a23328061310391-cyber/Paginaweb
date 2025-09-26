@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Ataque</th>
+                <ht>Descripcion</ht>
+                <th>Impacto</th>
+                <th>Ejemplo</th>
+                <th>Imagen</th>
+                <script>
+                   // El JSON (JavaScript, Object Notation) con la información sobre los ataques de ciberseguridad
+                  // declaro la variable en forma CONST para que sea "global"
+                  const ataques = [
+                 // lo que sigue son los elementos de este json separados por comas, el final no se pone la coma para decirle que ya acabo
+                 {
+                    // estos son los nombres de cada variable que voy a mandar llamar en el html para la tabla
+                    "ataque": "Phishing", //se le agrega la coma para decir que continua
+                    "descripcion": "Engaña al usuario para robar las credenciales mediante correos falsos.",
+                    "impacto": "Robo de identidad, pérdida de datos.",
+                    "ejemplo": "Correo falso de un banco solicitando datos.",
+                    "imagen": "https://www.galdon.com/wp-content/uploads/2021/05/portada-1024x576.png" //aqui buscan una imagen en google referente a eso, poner la liga, y como notan, aqui no hay coma al final porque fue la linea "final"
+                }
+            ]
+       </script>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
